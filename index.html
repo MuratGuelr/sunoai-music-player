@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suno Ai - Songs Made By ConsolAktif</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    />
+    <link rel="icon" href="./logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="consolaktif">
+      <a href="https://www.youtube.com/@ConsolAktif" target="_blank">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"
+          alt=""
+        />
+      </a>
+    </div>
+    <div id="app-cover">
+      <div id="song-list-container">
+        <ul id="song-list"></ul>
+      </div>
+
+      <div id="bg-artwork"></div>
+      <div id="bg-layer"></div>
+      <div id="player">
+        <div id="player-track">
+          <div id="album-name"></div>
+          <div id="track-name"></div>
+          <div id="track-time">
+            <div id="current-time"></div>
+            <div id="track-length"></div>
+          </div>
+          <div id="s-area">
+            <div id="ins-time"></div>
+            <div id="s-hover"></div>
+            <div id="seek-bar"></div>
+          </div>
+        </div>
+        <div id="player-content">
+          <div id="album-art">
+            <img
+              src="./album-cover/celestial-echoes.jpg"
+              class="active"
+              id="_1"
+            />
+            <img src="./album-cover/Chotic.jpg" id="_2" />
+            <img src="./album-cover/Holographic-Oasis.jpg" id="_3" />
+            <img src="./album-cover/Night-Shift.jpg" id="_4" />
+            <img src="./album-cover/NeonDreamscape.jpg" id="_5" />
+            <img src="./album-cover/Midnight-Horizon.jpg" id="_6" />
+            <img src="./album-cover/Stellar-Odyssey.jpg" id="_7" />
+            <img src="./album-cover/Solaris-Reverie.jpg" id="_8" />
+            <img src="./album-cover/Cybernetic-Serenity.jpg" id="_9" />
+            <img src="./album-cover/Blinding-Galaxy.jpg" id="_10" />
+            <img src="./album-cover/Blinding-Neon.jpg" id="_11" />
+            <img src="./album-cover/Blinding-Pulse.jpg" id="_12" />
+            <img src="./album-cover/Midnight.jpg" id="_13" />
+            <img src="./album-cover/Shadows-of-the-blade.jpg" id="_14" />
+            <img src="./album-cover/Solar-Flare.jpg" id="_15" />
+            <div id="buffer-box">Yükleniyor ...</div>
+          </div>
+          <div id="player-controls">
+            <div id="volume-control">
+              <input
+                type="range"
+                min="0"
+                max="1"
+                step="0.01"
+                value="1"
+                id="volume-slider"
+                class="display-none"
+              />
+              <span id="volume-text" class="display-none"></span>
+            </div>
+            <div class="control">
+              <div class="button" id="play-previous">
+                <i class="fas fa-backward"></i>
+              </div>
+            </div>
+            <div class="control">
+              <div class="button" id="play-pause-button">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="control">
+              <div class="button" id="play-next">
+                <i class="fas fa-forward"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
