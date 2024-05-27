@@ -35,7 +35,6 @@ You need a web browser to run this application.
 
    ```sh
    git clone https://github.com/MuratGuelr/sunoai-music-player.git
-
    ```
 
 2. Clone the repository:
